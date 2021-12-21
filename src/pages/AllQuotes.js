@@ -18,7 +18,7 @@ const AllQuotes = () => {
     sendRequest();
   }, [sendRequest]);
 
-  if (status === "panding") {
+  if (status === "pending") {
     return (
       <div className="centered">
         <LoadingSpinner />
